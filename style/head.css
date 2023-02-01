@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.back {
+    background-image: url(../img/body/1593736464_53-p-foni-s-lektsiyami-71.png);
+    /* background-size: contain; */
+    width: auto;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/* Ссылки */
+
+.fa-chevron-right {
+    margin-right: 5px;
+}
+
+.links {
+    margin-left: 30%;
+    margin-top: -60px;
+}
+
+.style {
+    font-size: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: #FF8C00 solid 2px;
+    padding-bottom: 3px;
+}
+
+
+/* Личный каб */
+
+.head_LK {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+}
+
+.reg {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.style:hover,
+.reg:hover,
+.in:hover {
+    transition: .2s;
+    color: #fff;
+    opacity: 0.8;
+    border-color: #000;
+}

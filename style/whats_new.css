@@ -1,0 +1,58 @@
+/* Вторая часть */
+
+.body_back_two {
+    background-image: url(../img/body/back2.jpg);
+    border-top: 2px solid #FF8C00;
+    width: 100%;
+    height: 693px;
+    z-index: 0;
+}
+
+.new {
+    z-index: 1;
+}
+
+.new>h1 {
+    color: #FF8C00;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wn_flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.whats_new {
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: #FF8C00;
+    width: 25%;
+    height: 400px;
+    align-items: center;
+}
+
+.whats_new>a>img {
+    margin: 5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.whats_new>p {
+    margin: 5%;
+    width: 90%;
+    line-height: 20px;
+    color: rgb(238, 255, 0);
+}
+
+.whats_new>h5 {
+    margin-left: 5%;
+    color: #363636fb;
+}

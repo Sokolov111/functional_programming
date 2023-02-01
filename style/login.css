@@ -1,0 +1,108 @@
+/* главная фоновая картинка */
+
+.image {
+    width: 100%;
+    height: 793px;
+    background-image: url(../img/links/img_in_logo.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Доп класс для лого */
+
+.logo_login {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 115px;
+}
+
+
+/* Форома за логином */
+
+.logo_contain {
+    box-shadow: 0 0 25px 10px rgb(0, 255, 0, 0.4);
+    border-radius: 20px;
+    background-image: url(../img/body/1593736464_53-p-foni-s-lektsiyami-71.png);
+    /* border: 2px solid #fff; */
+    width: 350px;
+    height: 450px;
+}
+
+.logo_contain>p {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* инпуты */
+
+.logo_div {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    border: 2px dashed #FF8C00;
+    border-radius: 10px;
+    width: 240px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    height: 100px;
+}
+
+.logo_input {
+    width: 230px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    background-color: #C0C0C0;
+}
+
+
+/* Кнопки */
+
+.btn_logo {
+    width: 240px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #C0C0C0;
+}
+
+.btn_l {
+    margin-top: 50px;
+    margin-left: 55px;
+    height: 35px;
+}
+
+.btn_l>a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn_logo:hover {
+    transition: .5s;
+    background-color: #FF8C00;
+    color: #fff;
+}
+
+
+/* Регистрация */
+
+.register {
+    height: 130px;
+}
+
+.regi {
+    height: 450px;
+}
